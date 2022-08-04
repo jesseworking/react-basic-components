@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // Target latest version of ECMAScript.
+    "target": "esnext",
+    // Search under node_modules for non-relative imports.
+    "moduleResolution": "node",
+    // Import non-ES modules as default imports.
+    "esModuleInterop": true,
+    "jsx": "react",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
